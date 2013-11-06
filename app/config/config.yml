@@ -177,7 +177,7 @@ payum:
                     signature:  %paypal_signature%
                     testMode:   true
             storages:
-                Vespolina\DefaultStoreBundle\Document\OmnipayPaymentDetails:
+                Vespolina\DefaultStoreBundle\Document\PaymentDetails:
                     doctrine:
                         driver: mongodb
 #                        id_property: id
